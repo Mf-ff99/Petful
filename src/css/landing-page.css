@@ -1,0 +1,83 @@
+header {
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 0;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 10px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .adoptable-container {
+        border: 5px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.landing-page {
+    display: flex;
+    margin-top: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.adoptable-container {
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.adoptable-container img {
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.user-section {
+    border: 5px solid green;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
